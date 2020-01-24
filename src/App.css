@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
 body {
   background: #f2f2f2;
   font-family: Arial, Helvetica, sans-serif;
@@ -31,9 +33,67 @@ body {
 .post {
   margin: 0 auto;
   background-color: #fff;
-  width: 700px;
-  height: 250px;
+  max-width: 640px;
   margin-top: 20px;
   border-radius: 3px;
   box-shadow: 0px 0px 5px 0px rgba(44, 44, 44, 0.1);
+  padding: 20px;
+}
+
+.post-container {
+  display: flex;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.post-container div:first-child {
+  margin-right: 10px;
+}
+
+.post-container div h2 {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.post-container div h3 {
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #9a9a9a;
+}
+
+.question {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+
+.comment {
+  display: flex;
+  padding-top: 20px;
+}
+
+.divider {
+  border-top: 1px solid #eeeeee;
+}
+
+.comment img {
+  margin-right: 10px;
+}
+
+.comment div p {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eeeeee;
+  padding: 10px 15px;
+  border-radius: 10px;
+  line-height: 1.5em;
+}
+
+.comment div p span {
+  font-weight: 600;
+}
+
+.avatar {
+  max-width: 30px;
+  border-radius: 50%;
 }
